@@ -1,5 +1,6 @@
 class Solution {
  public:
+ //
   int equalPairs(vector<vector<int>>& grid) {
     const int n = grid.size();
     int ans = 0;
