@@ -1,0 +1,61 @@
+class Solution {
+    private final int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    
+    public int latestDayToCross(int row, int col, int[][] cells) {
+        int left = 1, right = cells.length;
+        
+        while (left < right) {
+            int mid = left + (right - left + 1) / 2;
+            
+            if (canReachDestination(mid, row, col, cells)) {
+                left = mid;
+            } else {
+                right = mid - 1;
+            }
+        }
+        
+        return left;
+    }
+    
+    private boolean canReachDestination(int day, int row, int col, int[][] cells) {
+        int[][] grid = new int[row][col];
+        
+        for (int i = 0; i < day; i++) {
+            int r = cells[i][0] - 1;
+            int c = cells[i][1] - 1;
+            grid[r][c] = 1;
+        }
+        
+        for (int j = 0; j < col; j++) {
+            if (grid[0][j] == 0 && dfs(0, j, grid)) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
+    
+    private boolean dfs(int i, int j, int[][] grid) {
+        int row = grid.length;
+        int col = grid[0].length;
+        
+        if (i == row - 1) {
+            return true;
+        }
+        
+        grid[i][j] = 1; // Mark as visited
+        
+        for (int[] direction : directions) {
+            int newRow = i + direction[0];
+            int newCol = j + direction[1];
+            
+            if (newRow >= 0 && newRow < row && newCol >= 0 && newCol < col && grid[newRow][newCol] == 0) {
+                if (dfs(newRow, newCol, grid)) {
+                    return true;
+                }
+            }
+        }
+        
+        return false;
+    }
+}
