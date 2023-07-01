@@ -43,7 +43,7 @@ class Solution {
             return true;
         }
         
-        grid[i][j] = 1; // Mark as visited
+        grid[i][j] = 1; 
         
         for (int[] direction : directions) {
             int newRow = i + direction[0];
