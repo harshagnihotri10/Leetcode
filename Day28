@@ -2,7 +2,7 @@ class Solution {
  public:
   int maximumRequests(int n, vector<vector<int>>& requests) {
     int ans = 0;
-    vector<int> degree(n);  // degree[i] := degree of building i
+    vector<int> degree(n);  
 
     function<void(int, int)> dfs = [&](int i, int processedReqs) {
       if (i == requests.size()) {
