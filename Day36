@@ -6,7 +6,7 @@ class Solution {
     for (const int a : asteroids)
       if (a > 0) {
         stack.push_back(a);
-      } else {  // a < 0
+      } else { 
         // Destroy previous positive one(s).
         while (!stack.empty() && stack.back() > 0 && stack.back() < -a)
           stack.pop_back();
