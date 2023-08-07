@@ -24,7 +24,6 @@ class SnapshotArray {
   }
 
  private:
-  // snaps[i] := [(snap_id, val)]
   vector<vector<pair<int, int>>> snaps;
   int snap_id = 0;
 };
