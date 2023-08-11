@@ -3,7 +3,6 @@ class Solution {
   long long maxScore(vector<int>& nums1, vector<int>& nums2, int k) {
     long long ans = 0;
     long long sum = 0;
-    // (nums2[i], nums1[i]) sorted by nums2[i] in descending order.
     vector<pair<int, int>> A;
     priority_queue<int, vector<int>, greater<>> minHeap;
 
