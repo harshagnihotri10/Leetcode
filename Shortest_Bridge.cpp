@@ -3,7 +3,7 @@ class Solution {
  public:
   int shortestBridge(vector<vector<int>>& grid) {
     markGridTwo(grid);
-//harsh
+
     for (int color = 2;; ++color)
       for (int i = 0; i < grid.size(); ++i)
         for (int j = 0; j < grid[0].size(); ++j)
