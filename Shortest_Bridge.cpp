@@ -1,4 +1,4 @@
-//934. Shortest Bridge
+
 class Solution {
  public:
   int shortestBridge(vector<vector<int>>& grid) {
