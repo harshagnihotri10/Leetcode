@@ -6,7 +6,7 @@ class Solution {
       return 1;
     if (grid[0][0] == 1 || grid.back().back() == 1)
       return -1;
-
+//
     const vector<pair<int, int>> dirs{{-1, -1}, {-1, 0}, {-1, 1}, {0, -1},
                                       {0, 1},   {1, -1}, {1, 0},  {1, 1}};
 
