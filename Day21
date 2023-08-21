@@ -10,7 +10,7 @@ class Solution {
         for (; k < n; ++k)
           if (grid[i][k] != grid[k][j])
             break;
-        if (k == n)  // R[i] == C[j]
+        if (k == n)  
           ++ans;
       }
 
