@@ -13,7 +13,7 @@ class Solution {
         if (stack.empty() || stack.back() < 0)
           stack.push_back(a);
         else if (stack.back() == -a)
-          stack.pop_back();  // Both explode
+          stack.pop_back(); 
         else                 // stack.back() > current
           ;                  // Destroy current, so do nothing
       }
