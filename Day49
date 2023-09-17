@@ -6,7 +6,6 @@ class Solution {
 
     for (int i = 0; i < points.size() - 1; ++i) {
       for (int j = i + 1; j < points.size(); ++j) {
-        // Try to connect points[i] with points[j].
         dist[j] = min(dist[j], abs(points[i][0] - points[j][0]) +
                                    abs(points[i][1] - points[j][1]));
         // Swap points[j] (point with min dist) with points[i + 1].
