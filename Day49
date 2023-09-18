@@ -8,7 +8,6 @@ class Solution {
       for (int j = i + 1; j < points.size(); ++j) {
         dist[j] = min(dist[j], abs(points[i][0] - points[j][0]) +
                                    abs(points[i][1] - points[j][1]));
-        // Swap points[j] (point with min dist) with points[i + 1].
         if (dist[j] < dist[i + 1]) {
           swap(points[j], points[i + 1]);
           swap(dist[j], dist[i + 1]);
