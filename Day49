@@ -15,7 +15,6 @@ class Solution {
       }
       ans += dist[i + 1];
     }
-
     return ans;
   }
 };
