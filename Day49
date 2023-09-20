@@ -3,7 +3,6 @@ class Solution {
   int minCostConnectPoints(vector<vector<int>>& points) {
     vector<int> dist(points.size(), INT_MAX);
     int ans = 0;
-
     for (int i = 0; i < points.size() - 1; ++i) {
       for (int j = i + 1; j < points.size(); ++j) {
         dist[j] = min(dist[j], abs(points[i][0] - points[j][0]) +
