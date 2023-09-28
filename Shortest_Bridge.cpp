@@ -8,7 +8,7 @@ class Solution {
       for (int i = 0; i < grid.size(); ++i)
         for (int j = 0; j < grid[0].size(); ++j)
           if (grid[i][j] == color)
-            if (expand(grid, i + 1, j, color) ||  //
+            if (expand(grid, i + 1, j, color) ||  
                 expand(grid, i - 1, j, color) ||  
                 expand(grid, i, j + 1, color) ||  //
                 expand(grid, i, j - 1, color))
