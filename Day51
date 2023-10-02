@@ -1,7 +1,7 @@
 class Solution {
  public:
   bool find132pattern(vector<int>& nums) {
-    stack<int> stack;  // decreasing stack
+    stack<int> stack;  
     int ak = INT_MIN;  // We want to find a seq ai < ak < aj.
 
     for (int i = nums.size() - 1; i >= 0; --i) {
