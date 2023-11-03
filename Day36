@@ -15,7 +15,7 @@ class Solution {
         else if (stack.back() == -a)
           stack.pop_back(); 
         else                 
-          ;                  // Destroy current, so do nothing
+          ;                  
       }
 
     return stack;
