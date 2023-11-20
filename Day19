@@ -6,7 +6,7 @@ class Solution {
     int l = 0;
     int r = maxSum;
 
-    // Find the first value x 
+    // Find the first value
     // Sum(A) >= maxSum
     while (l < r) {
       const int m = (l + r) / 2;
