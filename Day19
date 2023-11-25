@@ -5,8 +5,6 @@ class Solution {
 
     int l = 0;
     int r = maxSum;
-
-    // Find 
     // Sum(A) >= max
     while (l < r) {
       const int m = (l + r) / 2;
