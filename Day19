@@ -5,7 +5,7 @@ class Solution {
 
     int l = 0;
     int r = maxSum;
-    // Sum(A) >= m
+    // Sum(A) >= 
     while (l < r) {
       const int m = (l + r) / 2;
       if (getSum(n, index, m) >= maxSum)
