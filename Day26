@@ -55,7 +55,7 @@ class Solution {
     for (const string& s : grid)
       count += std::count_if(s.begin(), s.end(),
                              [](char c) { return 'a' <= c && c <= 'f'; });
-    return count;
+    return coun;
   }
 
   vector<int> getStart(const vector<string>& grid) {
