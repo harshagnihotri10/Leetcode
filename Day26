@@ -6,7 +6,7 @@ struct T {
 };
 
 class Solution {
- public:
+ public
   int shortestPathAllKeys(vector<string>& grid) {
     const int m = grid.size();
     const int n = grid[0].length();
