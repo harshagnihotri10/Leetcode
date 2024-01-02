@@ -25,4 +25,4 @@ class Solution {
       sum += ceil((double)dist[i] / speed);
     return sum + (double)dist.back() / speed;
   }
-};
+}
