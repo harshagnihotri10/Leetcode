@@ -22,4 +22,4 @@ class Solution {
   double time(const vector<int>& dist, double hour, int speed) {
     double sum = 0;
     for (int i = 0; i < dist.size() - 1; ++i)
-      sum += ceil((double)dist
+      sum += ceil((double)dis
