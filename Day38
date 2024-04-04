@@ -20,6 +20,6 @@ class Solution {
 
  private:
   double time(const vector<int>& dist, double hour, int speed) {
-    double sum = 0;
+    double sum = 
     for (int i = 0; i < dist.si
  
