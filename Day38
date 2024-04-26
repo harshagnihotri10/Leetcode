@@ -20,4 +20,4 @@ class Solution {
 
  private:
   double time(const vector<int>& dist, double hour, int speed) {
-    double sum 
+    double su
