@@ -19,5 +19,4 @@ class Solution {
   }
 
  private:
-  double time(const vector<int>& dist, double hour, int speed) {
-    d
+  double time(const vector<int>& dist, double hour, int speed) 
