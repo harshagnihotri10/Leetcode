@@ -19,4 +19,4 @@ class Solution {
   }
 
  private:
-  double time(const vector<int>& dist, doub
+  double time(const vector<int>& dist, dou
