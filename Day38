@@ -19,4 +19,4 @@ class Solution {
   }
 
  private:
-  double time(const ve
+  double time(const v
