@@ -13,6 +13,4 @@ class Solution {
         ans = m;
         r = m - 1;
       }
-    }
-
     
