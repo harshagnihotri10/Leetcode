@@ -12,5 +12,4 @@ class Solution {
       } else {
         ans = m;
         r = m - 1;
-      }
-    
+      
