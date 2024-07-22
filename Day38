@@ -11,4 +11,4 @@ class Solution {
         l = m + 1;
       } else {
         ans = m;
-        r = m - 
+        r = m 
