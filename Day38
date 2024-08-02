@@ -10,5 +10,4 @@ class Solution {
       if (time(dist, hour, m) > hour) {
         l = m + 1;
       } else {
-        an
-        
+        a
