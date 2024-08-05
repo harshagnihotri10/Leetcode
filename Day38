@@ -9,5 +9,4 @@ class Solution {
       const int m = (l + r) / 2;
       if (time(dist, hour, m) > hour) {
         l = m + 1
-      } else {
-        
+      } else 
