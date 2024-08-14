@@ -8,4 +8,4 @@ class Solution {
     while (l <= r) {
       const int m = (l + r) / 2;
       if (time(dist, hour, m) > hour) {
-        l = m 
+        l = 
