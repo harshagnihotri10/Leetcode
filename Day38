@@ -7,4 +7,4 @@ class Solution {
 
     while (l <= r) {
       const int m = (l + r) / 2;
-      if (time(dist, h
+      if (time(dist, 
