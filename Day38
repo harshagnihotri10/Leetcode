@@ -6,4 +6,4 @@ class Solution {
     int r = 1e7;
 
     while (l <= r) {
-      const int m = (l + r) / 
+      const int m = (l + r) 
