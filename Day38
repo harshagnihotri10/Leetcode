@@ -3,7 +3,6 @@ class Solution {
   int minSpeedOnTime(vector<int>& dist, double hour) {
     int ans = -1;
     int l = 1;
-    int r = 1e7;
-
+    int r = 1e7
     while (l <= r) 
       const int m = (l 
