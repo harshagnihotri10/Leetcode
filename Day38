@@ -5,4 +5,4 @@ class Solution {
     int l = 1;
     int r = 1e7
     while (l <= r) 
-      const int 
+      const in
